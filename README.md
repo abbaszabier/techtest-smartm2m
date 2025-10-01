@@ -7,7 +7,7 @@ The goal is to render a responsive email list inside a table cell, adapting to a
 
 ### Prerequisites
 
-- Node.js **v18+ or v20+**
+- Node.js v20+**
 - npm or yarn package manager
 
 ### Steps
