@@ -13,8 +13,10 @@ The goal is to render a responsive email list inside a table cell, adapting to a
 ### Steps
 
 1. Clone the repository:
-   git clone https://github.com/abbaszabier/techtest-smartm2m.git
-   cd techtest-smartm2m
+
+- git clone https://github.com/abbaszabier/techtest-smartm2m.git
+- cd techtest-smartm2m
+
 2. Install dependencies:
 
 ```bash
@@ -60,8 +62,6 @@ src/
          └─ quiz.css                # base styling
 ```
 
----
-
 ## Evaluation Checklist
 
 - [✅] The cell renders emails based on available width.
@@ -76,5 +76,7 @@ src/
 - [✅] Code is clean, structured, and type-safe.
 
 ## Demo
+
+https://loquacious-muffin-7585b5.netlify.app/
 
 ![Demo GIF](./public/demo.gif)
