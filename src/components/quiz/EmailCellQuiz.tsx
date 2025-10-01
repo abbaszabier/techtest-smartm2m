@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState, useLayoutEffect } from "react";
-import { EmailCellUnsolved } from "./EmailCellUnsolved";
+import { EmailCell } from "./EmailCell";
 import "./quiz.css";
 
 type Row = {
@@ -151,7 +151,7 @@ export const EmailCellQuiz: React.FC = () => {
                   <td>{r.subject}</td>
                   <td>
                     {/* Replace with candidate’s solution component once implemented, e.g., <EmailCell .../> */}
-                    <EmailCellUnsolved emails={r.recipients} />
+                    <EmailCell emails={r.recipients} />
                   </td>
                 </tr>
               ))}

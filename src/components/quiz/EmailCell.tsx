@@ -4,7 +4,7 @@ export type EmailCellProps = {
   emails: string[];
 };
 
-export const EmailCellUnsolved: React.FC<EmailCellProps> = ({ emails }) => {
+export const EmailCell: React.FC<EmailCellProps> = ({ emails }) => {
   const containerRef = useRef<HTMLDivElement>(null); // ref ke elemen container div, dipakai untuk mengukur lebar cell
   const [width, setWidth] = useState(0); // state untuk menyimpan lebar container
 

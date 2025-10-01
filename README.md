@@ -57,7 +57,7 @@ The goal is to render a responsive email list inside a table cell, adapting to a
 src/
  └─ components/
      └─ quiz/
-         ├─ EmailCellUnsolved.tsx   # final solution for the quiz
+         ├─ EmailCell.tsx   # final solution for the quiz
          ├─ EmailCellQuiz.tsx       # interactive harness (with slider)
          └─ quiz.css                # base styling
 ```
