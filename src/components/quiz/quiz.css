@@ -98,3 +98,31 @@
   font-size: 12px;
   color: #475569;
 }
+
+.email-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow: hidden;
+}
+
+.email-cell.single .email-ellipsis {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.email-cell.multi .email-full {
+  white-space: nowrap;
+}
+
+.email-badge {
+  background: #eee;
+  border-radius: 12px;
+  padding: 0 6px;
+  font-size: 12px;
+  cursor: default;
+  white-space: nowrap;
+}
